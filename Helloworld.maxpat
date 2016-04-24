@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 163.0, 79.0, 1042.0, 513.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,41 +38,19 @@
 		"subpatcher_template" : "Snap to grid",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "toggle",
+					"id" : "obj-5",
+					"linecount" : 17,
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 345.0, 210.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 345.0, 240.0, 82.0, 22.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 525.0, 30.0, 300.0, 234.0 ],
 					"style" : "",
-					"text" : "jit.world Hello"
+					"text" : "Random granularization of video\n   Live slicing and rearrangement of frames\nUsing sound as a trigger for live video processing\nLive input from a camera\nSound - live or prerecorded\nOutput - projector \nHardware i/o options\nVideo mapping\n\nBasic image control (brightness/contrast/saturation, temporal slide, etc.)\n\nMax/Jitter fundamentals (matrices, textures, CPU vs GPU, scheduler, etc.)\n\nResources (package manager, forum, tutorials, Jitter recipes)"
 				}
 
 			}
  ],
-		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
- ],
+		"lines" : [  ],
 		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
