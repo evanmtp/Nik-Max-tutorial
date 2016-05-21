@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
-			"architecture" : "x64",
+			"revision" : 2,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 405.0, 79.0, 552.0, 721.0 ],
+		"rect" : [ 144.0, 79.0, 910.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -215,7 +215,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 270.0, 150.0, 33.0, 22.0 ],
-					"presentation_rect" : [ 399.0, 163.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "stop"
 				}
@@ -254,8 +253,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 330.0, 435.0, 165.0, 120.0 ],
-					"presentation_rect" : [ 290.0, 250.0, 0.0, 0.0 ]
+					"patching_rect" : [ 330.0, 435.0, 165.0, 120.0 ]
 				}
 
 			}
@@ -326,11 +324,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-35",
-					"linecount" : 9,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 525.0, 630.0, 150.0, 127.0 ],
+					"patching_rect" : [ 540.0, 600.0, 210.0, 87.0 ],
 					"style" : "",
 					"text" : "[jit.pwindow] is a useful object for previewing video within your patch. It's especially useful when debugging to use it as a probe and check what's happening with the video signal at a given point in the chain."
 				}
@@ -458,7 +456,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 480.0, 174.0, 100.0 ],
+					"patching_rect" : [ 510.0, 450.0, 174.0, 100.0 ],
 					"style" : "",
 					"text" : "[jit.world] is a sort of master video output object that combines a window, a rendering engine, a metronome, a videoplane and a physics engine into one handy package."
 				}

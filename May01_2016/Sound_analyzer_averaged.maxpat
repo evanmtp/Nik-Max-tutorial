@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 144.0, 79.0, 1048.0, 720.0 ],
+		"rect" : [ 275.0, 95.0, 1048.0, 720.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,60 @@
 		"subpatcher_template" : "patcher_template",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"patching_rect" : [ 450.0, 270.0, 48.0, 22.0 ],
+					"style" : "",
+					"text" : "buffer~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 450.0, 225.0, 54.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"basictuning" : 440,
+						"followglobaltempo" : 0,
+						"formantcorrection" : 0,
+						"loopend" : [ 0.0, "ms" ],
+						"loopstart" : [ 0.0, "ms" ],
+						"mode" : "basic",
+						"originallength" : [ 0.0, "ticks" ],
+						"originaltempo" : 120.0,
+						"phase" : [ 0.0, "ticks" ],
+						"pitchcorrection" : 0,
+						"quality" : "basic",
+						"timestretch" : [ 0 ]
+					}
+,
+					"style" : "",
+					"text" : "groove~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 600.0, 1485.0, 107.0, 22.0 ],
+					"style" : "",
+					"text" : "jit.gl.syphonserver"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -46,7 +100,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 120.0, 1455.0, 80.0, 35.0 ],
+					"patching_rect" : [ 135.0, 1500.0, 80.0, 35.0 ],
 					"style" : ""
 				}
 
@@ -67,14 +121,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-24",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 825.0, 1410.0, 150.0, 35.0 ],
+					"patching_rect" : [ 825.0, 1410.0, 150.0, 22.0 ],
 					"style" : "",
-					"text" : "amt 0.57199 0.230295 0.138862 1"
+					"text" : "amt 0. 0. 0. 1"
 				}
 
 			}
@@ -99,7 +152,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 75.0, 1275.0, 24.0, 24.0 ],
+					"patching_rect" : [ 60.0, 1200.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -111,7 +164,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 75.0, 1335.0, 313.0, 22.0 ],
+					"patching_rect" : [ 60.0, 1245.0, 313.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.world rgbaudio @displaylink 1 @fsaa 1 @fsmenubar 0"
 				}
@@ -158,7 +211,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 254.0, 1470.0, 253.0, 22.0 ],
+					"patching_rect" : [ 255.0, 1500.0, 253.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.videoplane rgbaudio @transform_reset 2"
 				}
@@ -362,9 +415,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 254.0, 1335.0, 157.0, 22.0 ],
+					"patching_rect" : [ 254.0, 1335.0, 201.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.movie @output_texture 1"
+					"text" : "jit.movie @output_texture 1 @vol 0."
 				}
 
 			}
@@ -1785,6 +1838,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1862,6 +1924,10 @@
 			}
 , 			{
 				"name" : "Lave.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.syphonserver.mxo",
 				"type" : "iLaX"
 			}
  ],
