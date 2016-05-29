@@ -1,0 +1,64 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+/gl_texset/data/active 1
+/gl_texset/data/bypass 0
+/gl_texset/context default
+/gl_texset/active 1
+/gl_texset/adapt 1
+/gl_texset/antialias 0
+/gl_texset/automatic 1
+/gl_texset/delay1 0.831683
+/gl_texset/delay2 0.415842
+/gl_texset/delay3 0.200385
+/gl_texset/delay4 0.415842
+/gl_texset/dim 720.000000 480.000000
+/gl_texset/quantity 101
+/gl_texset/rect 0.000000 0.000000 1.000000 1.000000
+/gl_texset/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/movie%/framemotor/fps 25
+/movie%/data/active 1
+/movie%/data/bypass 0
+/movie%/file/path countdown.mov
+/movie%/file/play 1
+/movie%/loop/mode loop
+/movie%/loop/points 0.000000 6000.000000
+/movie%/loop/report 0
+/movie%/colormode argb
+/movie%/rate 1.000000
+/movie%/unique 1
+/movie%/dim 640.000000 480.000000
+/movie%/adapt 0
+/movie%/vol 1.000000
+/movie%/output_texture 0
+# 
+/pix_brcosa/data/active 1
+/pix_brcosa/data/bypass 0
+/pix_brcosa/context default
+/pix_brcosa/active 1
+/pix_brcosa/adapt 1
+/pix_brcosa/antialias 0
+/pix_brcosa/automatic 1
+/pix_brcosa/brightness 1.000000
+/pix_brcosa/contrast 1.000000
+/pix_brcosa/dim 720.000000 480.000000
+/pix_brcosa/rect 0.000000 0.000000 1.000000 1.000000
+/pix_brcosa/saturation 1.000000
+/pix_brcosa/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/xfade.1/data/active 1
+/xfade.1/data/bypass 0
+/xfade.1/context default
+/xfade.1/active 1
+/xfade.1/adapt 1
+/xfade.1/antialias 0
+/xfade.1/automatic 1
+/xfade.1/dim 720.000000 480.000000
+/xfade.1/rect 0.000000 0.000000 1.000000 1.000000
+/xfade.1/texrect 0.000000 0.000000 1.000000 1.000000
+/xfade.1/xfade 0.000000
+# 
+# ###########################################
+

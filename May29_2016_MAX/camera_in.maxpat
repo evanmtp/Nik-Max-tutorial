@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 2,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -38,11 +38,27 @@
 		"subpatcher_template" : "Snap to grid",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 240.0, 15.0, 169.0, 22.0 ],
+					"style" : "",
+					"text" : "j.initialized /cue_manager 400"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 15.0, 150.0, 20.0 ],
+					"patching_rect" : [ 15.0, 15.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 75.0, 20.0 ],
 					"style" : "",
@@ -57,7 +73,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 105.0, 30.0, 30.0 ],
+					"patching_rect" : [ 15.0, 135.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -69,7 +85,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 30.0, 39.0, 22.0 ],
+					"patching_rect" : [ 60.0, 60.0, 39.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 45.0, 30.0, 39.0, 22.0 ],
 					"style" : "",
@@ -84,7 +100,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 30.0, 37.0, 22.0 ],
+					"patching_rect" : [ 15.0, 60.0, 37.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 30.0, 37.0, 22.0 ],
 					"style" : "",
@@ -105,7 +121,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 2,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -151,7 +167,7 @@
 											"major" : 7,
 											"minor" : 2,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -714,7 +730,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 210.0, 15.0, 67.0, 22.0 ],
+					"patching_rect" : [ 285.0, 75.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -735,7 +751,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 180.0, 105.0, 24.0, 24.0 ],
+					"patching_rect" : [ 255.0, 165.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 90.0, 24.0, 24.0 ],
 					"style" : ""
@@ -749,7 +765,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 180.0, 75.0, 24.0, 24.0 ],
+					"patching_rect" : [ 255.0, 135.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 60.0, 24.0, 24.0 ],
 					"style" : ""
@@ -765,7 +781,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 105.0, 145.0, 22.0 ],
+					"patching_rect" : [ 285.0, 165.0, 145.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 90.0, 145.0, 22.0 ],
 					"style" : ""
@@ -775,13 +791,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-41",
-					"items" : "FaceTime HD Camera",
+					"items" : [ "FaceTime HD Camera", ",", "Blackmagic UltraStudio Mini Recorder", ",", "UltraStudio Mini Recorder [Native]" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 75.0, 145.0, 22.0 ],
+					"patching_rect" : [ 285.0, 135.0, 145.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 60.0, 145.0, 22.0 ],
 					"style" : ""
@@ -795,7 +811,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 15.0, 75.0, 149.0, 22.0 ],
+					"patching_rect" : [ 15.0, 105.0, 149.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.grab @output_texture 1"
 				}
@@ -804,10 +820,20 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 249.5, 85.5, 264.5, 85.5 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-63", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 154.5, 99.0, 165.0, 99.0, 165.0, 0.0, 255.5, 0.0 ],
+					"midpoints" : [ 154.5, 137.0, 242.5, 137.0, 242.5, 64.0, 330.5, 64.0 ],
 					"source" : [ "obj-38", 1 ]
 				}
 
@@ -826,7 +852,7 @@
 					"destination" : [ "obj-63", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 219.5, 129.0, 207.0, 129.0, 207.0, 48.0, 195.0, 48.0, 195.0, 0.0, 267.5, 0.0 ],
+					"midpoints" : [ 294.5, 189.0, 282.0, 189.0, 282.0, 108.0, 270.0, 108.0, 270.0, 60.0, 342.5, 60.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -836,7 +862,7 @@
 					"destination" : [ "obj-63", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 219.5, 99.0, 207.0, 99.0, 207.0, 48.0, 195.0, 48.0, 195.0, 0.0, 231.5, 0.0 ],
+					"midpoints" : [ 294.5, 159.0, 282.0, 159.0, 282.0, 108.0, 270.0, 108.0, 270.0, 60.0, 306.5, 60.0 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -846,7 +872,7 @@
 					"destination" : [ "obj-63", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 189.5, 102.0, 204.0, 102.0, 204.0, 48.0, 195.0, 48.0, 195.0, 9.0, 219.5, 9.0 ],
+					"midpoints" : [ 264.5, 162.0, 279.0, 162.0, 279.0, 108.0, 270.0, 108.0, 270.0, 69.0, 294.5, 69.0 ],
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -856,7 +882,7 @@
 					"destination" : [ "obj-63", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 189.5, 132.0, 204.0, 132.0, 204.0, 48.0, 195.0, 48.0, 195.0, 0.0, 243.5, 0.0 ],
+					"midpoints" : [ 264.5, 192.0, 279.0, 192.0, 279.0, 108.0, 270.0, 108.0, 270.0, 60.0, 318.5, 60.0 ],
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -866,7 +892,7 @@
 					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 219.5, 60.0, 24.5, 60.0 ],
+					"midpoints" : [ 294.5, 100.5, 24.5, 100.5 ],
 					"source" : [ "obj-63", 0 ]
 				}
 
@@ -876,7 +902,7 @@
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 267.5, 72.0, 204.0, 72.0, 204.0, 99.0, 219.5, 99.0 ],
+					"midpoints" : [ 342.5, 132.0, 279.0, 132.0, 279.0, 159.0, 294.5, 159.0 ],
 					"source" : [ "obj-63", 2 ]
 				}
 
@@ -886,7 +912,7 @@
 					"destination" : [ "obj-41", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 243.5, 69.0, 219.5, 69.0 ],
+					"midpoints" : [ 318.5, 129.0, 294.5, 129.0 ],
 					"source" : [ "obj-63", 1 ]
 				}
 
@@ -910,8 +936,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
