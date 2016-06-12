@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -93,23 +93,9 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_gl_texture" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 15.0, 30.0, 30.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "Shader-based Gaussian blur.",
-					"id" : "obj-150",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 120.0, 170.0, 22.0 ],
-					"style" : "",
-					"text" : "gl_cf_gaussian_2p.model blur"
 				}
 
 			}
@@ -139,19 +125,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-150", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-148", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-150", 0 ]
+					"source" : [ "obj-148", 0 ]
 				}
 
 			}
