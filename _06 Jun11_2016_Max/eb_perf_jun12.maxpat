@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 3,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 58.0, 79.0, 1348.0, 787.0 ],
+		"rect" : [ 211.0, 79.0, 942.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,20 @@
 		"subpatcher_template" : "Snap to grid",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-35",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 435.0, 180.0, 50.0, 62.0 ],
+					"style" : "",
+					"text" : "0.065714 0.091429"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-64",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -49,7 +63,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1293,7 +1307,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 255.0, 49.0, 22.0 ],
+					"patching_rect" : [ 15.0, 330.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "s cam_"
 				}
@@ -1327,11 +1341,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 15.0, 210.0, 255.0, 22.0 ],
+					"patching_rect" : [ 15.0, 225.0, 120.0, 49.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture default @adapt 0 @dim 1280 720"
 				}
@@ -1416,7 +1431,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1693,7 +1708,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2487,7 +2502,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3019,7 +3034,7 @@
 											"major" : 7,
 											"minor" : 2,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3336,7 +3351,7 @@
 													"destination" : [ "obj-161", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 95.166664, 420.5, 219.5, 420.5 ],
+													"midpoints" : [ 95.166667, 420.5, 219.5, 420.5 ],
 													"source" : [ "obj-166", 1 ]
 												}
 
@@ -3346,7 +3361,7 @@
 													"destination" : [ "obj-169", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 95.166664, 417.0, 129.5, 417.0 ],
+													"midpoints" : [ 95.166667, 417.0, 129.5, 417.0 ],
 													"source" : [ "obj-166", 1 ]
 												}
 
@@ -3356,7 +3371,7 @@
 													"destination" : [ "obj-190", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 105.833336, 169.0, 376.0, 169.0, 376.0, 539.0, 189.5, 539.0 ],
+													"midpoints" : [ 105.833333, 169.0, 376.0, 169.0, 376.0, 539.0, 189.5, 539.0 ],
 													"source" : [ "obj-166", 2 ]
 												}
 
@@ -3547,7 +3562,7 @@
 											"major" : 7,
 											"minor" : 2,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3864,7 +3879,7 @@
 													"destination" : [ "obj-161", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 95.166664, 420.5, 219.5, 420.5 ],
+													"midpoints" : [ 95.166667, 420.5, 219.5, 420.5 ],
 													"source" : [ "obj-166", 1 ]
 												}
 
@@ -3874,7 +3889,7 @@
 													"destination" : [ "obj-169", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 95.166664, 417.0, 129.5, 417.0 ],
+													"midpoints" : [ 95.166667, 417.0, 129.5, 417.0 ],
 													"source" : [ "obj-166", 1 ]
 												}
 
@@ -3884,7 +3899,7 @@
 													"destination" : [ "obj-190", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 105.833336, 169.0, 376.0, 169.0, 376.0, 539.0, 189.5, 539.0 ],
+													"midpoints" : [ 105.833333, 169.0, 376.0, 169.0, 376.0, 539.0, 189.5, 539.0 ],
 													"source" : [ "obj-166", 2 ]
 												}
 
@@ -4075,7 +4090,7 @@
 											"major" : 7,
 											"minor" : 2,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -4392,7 +4407,7 @@
 													"destination" : [ "obj-161", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 95.166664, 420.5, 219.5, 420.5 ],
+													"midpoints" : [ 95.166667, 420.5, 219.5, 420.5 ],
 													"source" : [ "obj-166", 1 ]
 												}
 
@@ -4402,7 +4417,7 @@
 													"destination" : [ "obj-169", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 95.166664, 417.0, 129.5, 417.0 ],
+													"midpoints" : [ 95.166667, 417.0, 129.5, 417.0 ],
 													"source" : [ "obj-166", 1 ]
 												}
 
@@ -4412,7 +4427,7 @@
 													"destination" : [ "obj-190", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 105.833336, 169.0, 376.0, 169.0, 376.0, 539.0, 189.5, 539.0 ],
+													"midpoints" : [ 105.833333, 169.0, 376.0, 169.0, 376.0, 539.0, 189.5, 539.0 ],
 													"source" : [ "obj-166", 2 ]
 												}
 
@@ -4603,7 +4618,7 @@
 											"major" : 7,
 											"minor" : 2,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -4920,7 +4935,7 @@
 													"destination" : [ "obj-161", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 95.166664, 420.5, 219.5, 420.5 ],
+													"midpoints" : [ 95.166667, 420.5, 219.5, 420.5 ],
 													"source" : [ "obj-166", 1 ]
 												}
 
@@ -4930,7 +4945,7 @@
 													"destination" : [ "obj-169", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 95.166664, 417.0, 129.5, 417.0 ],
+													"midpoints" : [ 95.166667, 417.0, 129.5, 417.0 ],
 													"source" : [ "obj-166", 1 ]
 												}
 
@@ -4940,7 +4955,7 @@
 													"destination" : [ "obj-190", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 105.833336, 169.0, 376.0, 169.0, 376.0, 539.0, 189.5, 539.0 ],
+													"midpoints" : [ 105.833333, 169.0, 376.0, 169.0, 376.0, 539.0, 189.5, 539.0 ],
 													"source" : [ "obj-166", 2 ]
 												}
 
@@ -5215,7 +5230,7 @@
 											"major" : 7,
 											"minor" : 2,
 											"revision" : 3,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -5532,7 +5547,7 @@
 													"destination" : [ "obj-161", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 95.166664, 420.5, 219.5, 420.5 ],
+													"midpoints" : [ 95.166667, 420.5, 219.5, 420.5 ],
 													"source" : [ "obj-166", 1 ]
 												}
 
@@ -5542,7 +5557,7 @@
 													"destination" : [ "obj-169", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 95.166664, 417.0, 129.5, 417.0 ],
+													"midpoints" : [ 95.166667, 417.0, 129.5, 417.0 ],
 													"source" : [ "obj-166", 1 ]
 												}
 
@@ -5552,7 +5567,7 @@
 													"destination" : [ "obj-190", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 105.833336, 169.0, 376.0, 169.0, 376.0, 539.0, 189.5, 539.0 ],
+													"midpoints" : [ 105.833333, 169.0, 376.0, 169.0, 376.0, 539.0, 189.5, 539.0 ],
 													"source" : [ "obj-166", 2 ]
 												}
 
@@ -6983,7 +6998,7 @@
 									"destination" : [ "obj-95", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 909.5, 719.5, 842.833313, 719.5 ],
+									"midpoints" : [ 909.5, 719.5, 842.833333, 719.5 ],
 									"source" : [ "obj-101", 0 ]
 								}
 
@@ -6993,7 +7008,7 @@
 									"destination" : [ "obj-95", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 864.5, 719.5, 831.166687, 719.5 ],
+									"midpoints" : [ 864.5, 719.5, 831.166667, 719.5 ],
 									"source" : [ "obj-102", 0 ]
 								}
 
@@ -7529,7 +7544,7 @@
 									"destination" : [ "obj-49", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 519.5, 719.5, 453.166656, 719.5 ],
+									"midpoints" : [ 519.5, 719.5, 453.166667, 719.5 ],
 									"source" : [ "obj-30", 0 ]
 								}
 
@@ -7539,7 +7554,7 @@
 									"destination" : [ "obj-49", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 474.5, 719.5, 441.333344, 719.5 ],
+									"midpoints" : [ 474.5, 719.5, 441.333333, 719.5 ],
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -7616,7 +7631,7 @@
 									"destination" : [ "obj-50", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 714.5, 719.5, 647.833313, 719.5 ],
+									"midpoints" : [ 714.5, 719.5, 647.833333, 719.5 ],
 									"source" : [ "obj-56", 0 ]
 								}
 
@@ -7626,7 +7641,7 @@
 									"destination" : [ "obj-50", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 669.5, 719.5, 636.166687, 719.5 ],
+									"midpoints" : [ 669.5, 719.5, 636.166667, 719.5 ],
 									"source" : [ "obj-57", 0 ]
 								}
 
@@ -7733,7 +7748,7 @@
 									"destination" : [ "obj-86", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 909.5, 524.5, 844.833313, 524.5 ],
+									"midpoints" : [ 909.5, 524.5, 844.833333, 524.5 ],
 									"source" : [ "obj-92", 0 ]
 								}
 
@@ -7743,7 +7758,7 @@
 									"destination" : [ "obj-86", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 864.5, 524.5, 832.166687, 524.5 ],
+									"midpoints" : [ 864.5, 524.5, 832.166667, 524.5 ],
 									"source" : [ "obj-93", 0 ]
 								}
 
@@ -7801,7 +7816,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -8042,7 +8057,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -8290,7 +8305,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -8589,6 +8604,7 @@
 , 			{
 				"box" : 				{
 					"candycane" : 4,
+					"displayknob" : 1,
 					"fontsize" : 24.0,
 					"id" : "obj-124",
 					"maxclass" : "nodes",
@@ -8681,7 +8697,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -9527,7 +9543,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -9950,7 +9966,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -10814,6 +10830,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -10853,7 +10878,7 @@
 					"destination" : [ "obj-27", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1014.5, 768.0, 910.099976, 768.0 ],
+					"midpoints" : [ 1014.5, 768.0, 910.1, 768.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -10900,7 +10925,7 @@
 					"destination" : [ "obj-27", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1089.5, 768.0, 1020.299988, 768.0 ],
+					"midpoints" : [ 1089.5, 768.0, 1020.3, 768.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -11170,57 +11195,57 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-157::obj-5::obj-36" : [ "live.text", "live.text", 0 ],
-			"obj-1::obj-92" : [ "slider[22]", "slider[1]", 0 ],
-			"obj-1::obj-18" : [ "number[1]", "number", 0 ],
-			"obj-1::obj-56" : [ "slider[8]", "slider[1]", 0 ],
-			"obj-157::obj-5::obj-91" : [ "live.text[5]", "live.text[2]", 0 ],
 			"obj-1::obj-57" : [ "slider[9]", "slider[1]", 0 ],
-			"obj-157::obj-5::obj-39" : [ "live.text[3]", "live.text", 0 ],
-			"obj-129::obj-5::obj-53" : [ "live.button[4]", "live.button", 0 ],
-			"obj-1::obj-21" : [ "number[3]", "number", 0 ],
-			"obj-157::obj-5::obj-41" : [ "live.text[4]", "live.text[4]", 0 ],
-			"obj-1::obj-200" : [ "slider[32]", "slider[1]", 0 ],
-			"obj-1::obj-85" : [ "slider[11]", "slider[1]", 0 ],
-			"obj-1::obj-219" : [ "slider[31]", "slider[1]", 0 ],
-			"obj-129::obj-5::obj-89" : [ "live.text[13]", "live.text[2]", 0 ],
-			"obj-157::obj-5::obj-37" : [ "live.text[1]", "live.text", 0 ],
-			"obj-129::obj-5::obj-49" : [ "live.button[5]", "live.button", 0 ],
-			"obj-1::obj-58" : [ "slider[10]", "slider[1]", 0 ],
-			"obj-1::obj-20" : [ "number[2]", "number", 0 ],
-			"obj-1::obj-30" : [ "slider[4]", "slider[1]", 0 ],
-			"obj-157::obj-5::obj-53" : [ "live.button[1]", "live.button", 0 ],
-			"obj-1::obj-224" : [ "slider[33]", "slider[1]", 0 ],
-			"obj-1::obj-17" : [ "number", "number", 0 ],
-			"obj-1::obj-103" : [ "slider[28]", "slider[1]", 0 ],
-			"obj-1::obj-234" : [ "slider[35]", "slider[1]", 0 ],
-			"obj-129::obj-5::obj-91" : [ "live.text[12]", "live.text[2]", 0 ],
-			"obj-1::obj-27" : [ "number[4]", "number", 0 ],
-			"obj-1::obj-229" : [ "slider[34]", "slider[1]", 0 ],
-			"obj-1::obj-32" : [ "slider[6]", "slider[1]", 0 ],
-			"obj-1::obj-28" : [ "number[5]", "number", 0 ],
-			"obj-1::obj-34" : [ "slider[90]", "slider", 0 ],
-			"obj-157::obj-5::obj-49" : [ "live.button", "live.button", 0 ],
-			"obj-1::obj-101" : [ "slider[26]", "slider[1]", 0 ],
-			"obj-1::obj-94" : [ "slider[24]", "slider[1]", 0 ],
-			"obj-1::obj-75" : [ "slider[16]", "slider[1]", 0 ],
-			"obj-1::obj-83" : [ "slider[19]", "slider[1]", 0 ],
-			"obj-1::obj-84" : [ "slider[20]", "slider[1]", 0 ],
-			"obj-129::obj-5::obj-41" : [ "live.text[14]", "live.text[4]", 0 ],
-			"obj-129::obj-5::obj-39" : [ "live.text[15]", "live.text", 0 ],
-			"obj-1::obj-33" : [ "umenu[14]", "umenu", 0 ],
-			"obj-1::obj-102" : [ "slider[27]", "slider[1]", 0 ],
-			"obj-1::obj-76" : [ "slider[17]", "slider[1]", 0 ],
-			"obj-54" : [ "live.tab", "live.tab", 0 ],
 			"obj-1::obj-93" : [ "slider[23]", "slider[1]", 0 ],
-			"obj-1::obj-235" : [ "multislider", "multislider", 0 ],
-			"obj-157::obj-5::obj-89" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-1::obj-74" : [ "slider[15]", "slider[1]", 0 ],
-			"obj-1::obj-241" : [ "slider[30]", "slider[30]", 0 ],
+			"obj-54" : [ "live.tab", "live.tab", 0 ],
+			"obj-129::obj-5::obj-89" : [ "live.text[13]", "live.text[2]", 0 ],
+			"obj-1::obj-229" : [ "slider[34]", "slider[1]", 0 ],
+			"obj-129::obj-5::obj-41" : [ "live.text[14]", "live.text[4]", 0 ],
+			"obj-157::obj-5::obj-91" : [ "live.text[5]", "live.text[2]", 0 ],
 			"obj-1::obj-1" : [ "rslider[14]", "rslider", 0 ],
-			"obj-129::obj-5::obj-37" : [ "live.text[16]", "live.text", 0 ],
+			"obj-1::obj-103" : [ "slider[28]", "slider[1]", 0 ],
+			"obj-1::obj-30" : [ "slider[4]", "slider[1]", 0 ],
+			"obj-157::obj-5::obj-41" : [ "live.text[4]", "live.text[4]", 0 ],
+			"obj-1::obj-101" : [ "slider[26]", "slider[1]", 0 ],
+			"obj-1::obj-18" : [ "number[1]", "number", 0 ],
+			"obj-129::obj-5::obj-39" : [ "live.text[15]", "live.text", 0 ],
+			"obj-157::obj-5::obj-37" : [ "live.text[1]", "live.text", 0 ],
+			"obj-1::obj-83" : [ "slider[19]", "slider[1]", 0 ],
 			"obj-129::obj-5::obj-36" : [ "live.text[17]", "live.text", 0 ],
-			"obj-1::obj-31" : [ "slider[5]", "slider[1]", 0 ]
+			"obj-1::obj-84" : [ "slider[20]", "slider[1]", 0 ],
+			"obj-1::obj-27" : [ "number[4]", "number", 0 ],
+			"obj-1::obj-28" : [ "number[5]", "number", 0 ],
+			"obj-1::obj-31" : [ "slider[5]", "slider[1]", 0 ],
+			"obj-1::obj-235" : [ "multislider", "multislider", 0 ],
+			"obj-1::obj-17" : [ "number", "number", 0 ],
+			"obj-1::obj-75" : [ "slider[16]", "slider[1]", 0 ],
+			"obj-1::obj-92" : [ "slider[22]", "slider[1]", 0 ],
+			"obj-157::obj-5::obj-36" : [ "live.text", "live.text", 0 ],
+			"obj-1::obj-102" : [ "slider[27]", "slider[1]", 0 ],
+			"obj-129::obj-5::obj-53" : [ "live.button[4]", "live.button", 0 ],
+			"obj-1::obj-34" : [ "slider[90]", "slider", 0 ],
+			"obj-1::obj-76" : [ "slider[17]", "slider[1]", 0 ],
+			"obj-129::obj-5::obj-49" : [ "live.button[5]", "live.button", 0 ],
+			"obj-1::obj-234" : [ "slider[35]", "slider[1]", 0 ],
+			"obj-1::obj-219" : [ "slider[31]", "slider[1]", 0 ],
+			"obj-1::obj-32" : [ "slider[6]", "slider[1]", 0 ],
+			"obj-1::obj-21" : [ "number[3]", "number", 0 ],
+			"obj-157::obj-5::obj-49" : [ "live.button", "live.button", 0 ],
+			"obj-1::obj-241" : [ "slider[30]", "slider[30]", 0 ],
+			"obj-1::obj-85" : [ "slider[11]", "slider[1]", 0 ],
+			"obj-1::obj-94" : [ "slider[24]", "slider[1]", 0 ],
+			"obj-129::obj-5::obj-91" : [ "live.text[12]", "live.text[2]", 0 ],
+			"obj-157::obj-5::obj-89" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-1::obj-58" : [ "slider[10]", "slider[1]", 0 ],
+			"obj-1::obj-200" : [ "slider[32]", "slider[1]", 0 ],
+			"obj-1::obj-74" : [ "slider[15]", "slider[1]", 0 ],
+			"obj-157::obj-5::obj-39" : [ "live.text[3]", "live.text", 0 ],
+			"obj-1::obj-224" : [ "slider[33]", "slider[1]", 0 ],
+			"obj-157::obj-5::obj-53" : [ "live.button[1]", "live.button", 0 ],
+			"obj-1::obj-33" : [ "umenu[14]", "umenu", 0 ],
+			"obj-129::obj-5::obj-37" : [ "live.text[16]", "live.text", 0 ],
+			"obj-1::obj-20" : [ "number[2]", "number", 0 ],
+			"obj-1::obj-56" : [ "slider[8]", "slider[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
