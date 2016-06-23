@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 364.0, 457.0, 707.0, 345.0 ],
+		"rect" : [ 584.0, 153.0, 707.0, 345.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 525.0, 195.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 526.0, 190.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -61,7 +60,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 465.0, 195.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 466.0, 190.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -206,7 +204,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 690.0, 45.0, 35.0, 22.0 ],
+					"patching_rect" : [ 690.0, 60.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "read"
 				}
@@ -219,7 +217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 555.0, 45.0, 35.0, 22.0 ],
+					"patching_rect" : [ 555.0, 60.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "read"
 				}
@@ -232,7 +230,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 45.0, 35.0, 22.0 ],
+					"patching_rect" : [ 420.0, 60.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "read"
 				}
@@ -268,28 +266,28 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-19",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 690.0, 90.0, 121.0, 49.0 ],
+					"patching_rect" : [ 690.0, 90.0, 109.0, 35.0 ],
 					"style" : "",
-					"text" : "jit.movie @moviefile dozer.mov @vol 0 @output_texture 1"
+					"text" : "jit.movie @vol 0 @output_texture 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-18",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 555.0, 90.0, 120.0, 49.0 ],
+					"patching_rect" : [ 555.0, 90.0, 109.0, 35.0 ],
 					"style" : "",
-					"text" : "jit.movie @moviefile dishes.mov @vol 0 @output_texture 1"
+					"text" : "jit.movie @vol 0 @output_texture 1"
 				}
 
 			}
@@ -300,7 +298,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 30.0, 35.0, 22.0 ],
+					"patching_rect" : [ 195.0, 60.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "read"
 				}
@@ -309,14 +307,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 420.0, 90.0, 120.0, 49.0 ],
+					"patching_rect" : [ 420.0, 90.0, 120.0, 35.0 ],
 					"style" : "",
-					"text" : "jit.movie @moviefile redball.mov @vol 0 @output_texture 1"
+					"text" : "jit.movie @vol 0 @output_texture 1"
 				}
 
 			}
@@ -1836,11 +1834,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 195.0, 75.0, 198.0, 22.0 ],
+					"patching_rect" : [ 195.0, 90.0, 120.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.movie @vol 0 @output_texture 1"
 				}
