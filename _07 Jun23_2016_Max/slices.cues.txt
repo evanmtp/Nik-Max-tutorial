@@ -1,0 +1,51 @@
+- cue "default"
+- description "something about this cue"
+# ###########################################
+# 
+/gl_pix_slide/data/active 1
+/gl_pix_slide/data/bypass 0
+/gl_pix_slide/context default
+/gl_pix_slide/active 1
+/gl_pix_slide/adapt 1
+/gl_pix_slide/antialias 0
+/gl_pix_slide/attack 0.900000
+/gl_pix_slide/automatic 1
+/gl_pix_slide/decay 0.900000
+/gl_pix_slide/dim 720.000000 480.000000
+/gl_pix_slide/rect 0.000000 0.000000 1.000000 1.000000
+/gl_pix_slide/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_texset/data/bypass 0
+/gl_texset/data/active 1
+/gl_texset/active 1
+/gl_texset/adapt 1
+/gl_texset/antialias 0
+/gl_texset/delay2 0.500000
+/gl_texset/delay3 0.750000
+/gl_texset/dim 720.000000 480.000000
+/gl_texset/rect 0.000000 0.000000 1.000000 1.000000
+/gl_texset/context default
+/gl_texset/quantity 100
+/gl_texset/automatic 1
+/gl_texset/delay1 0.250000
+/gl_texset/delay4 1.000000
+/gl_texset/texrect 0.000000 0.000000 1.000000 1.000000
+# 
+/gl_rota/context default
+/gl_rota/active 1
+/gl_rota/automatic 1
+/gl_rota/antialias 0
+/gl_rota/adapt 1
+/gl_rota/texrect 0.000000 0.000000 1.000000 1.000000
+/gl_rota/rect 0.000000 0.000000 1.000000 1.000000
+/gl_rota/dim 720.000000 480.000000
+/gl_rota/data/active 1
+/gl_rota/data/bypass 0
+/gl_rota/boundmode wrap
+/gl_rota/theta 0.000000
+/gl_rota/anchor 0.500000 0.500000
+/gl_rota/offset 0.000000 0.000000
+/gl_rota/zoom 1.200000 1.000000
+# 
+# ###########################################
+
